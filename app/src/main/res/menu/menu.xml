@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MinhasViagensActivity">
+
+    <item
+        android:id="@+id/atualizar"
+        android:title="@string/atualizar"
+        android:icon="@drawable/ic_action_refresh"
+        android:onClick="atualizar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/parar"
+        android:title="@string/parar"
+        android:icon="@drawable/ic_close_box_outline"
+        android:onClick="stopService"
+        app:showAsAction="always" />
+
+</menu>

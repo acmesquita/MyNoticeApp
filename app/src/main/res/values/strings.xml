@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyNoticeApp</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="parar">Parar</string>
+</resources>
